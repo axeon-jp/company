@@ -1,0 +1,102 @@
+[
+  {
+    "name": "_note_session_v5",
+    "value": "c47c883d00e6ce50feb5acce61df6e23",
+    "domain": ".note.com",
+    "path": "/",
+    "expires": 1786113432.919904,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "fp",
+    "value": "29400e20f37497d028bfaf0014f5e2ecd",
+    "domain": ".note.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_vid_v1",
+    "value": "98c04d7ce25c20b7c35919e377d50e1b",
+    "domain": "note.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_vid_v2",
+    "value": "98c04d7ce25c20b7c35919e377d50e1b",
+    "domain": ".note.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.1801974654.1778164628",
+    "domain": ".note.com",
+    "path": "/",
+    "expires": 1778251028,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.171702078.1778164628",
+    "domain": ".note.com",
+    "path": "/",
+    "expires": 1812724628.387391,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__Host-GAPS",
+    "value": "1:ILY4kjt0xMS6GK7VmK_ov30rfa1vbQ:XGskORQEN18rR8Si",
+    "domain": "accounts.google.com",
+    "path": "/",
+    "expires": 1812724633.122474,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_J9CPC3WE56",
+    "value": "GS2.1.s1778164628$o1$g0$t1778164633$j55$l0$h0",
+    "domain": ".note.com",
+    "path": "/",
+    "expires": 1812724633.282866,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "OTZ",
+    "value": "8597677_20_20__20_",
+    "domain": "accounts.google.com",
+    "path": "/",
+    "expires": 1780756634,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "NID",
+    "value": "531=GroJz76KqDG70VSN04EX5hxV4N0Jo7sIyURSH1U6FPuULOpFP9sVgdZqNtx8v58sNf2QtrSANXuuOqw05XnO-xk0F012kDKD8UiS2QbZhGpxIBbNPaHdVbrm8eiADANxt8YlFTXwqTIimrlBhQNYotIWlhfZUS3q6IH-CCKfmhmR5TB0HZFtuStE6Vs9TikZth8PEZENtQRviPeY",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1793975835.070831,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  }
+]

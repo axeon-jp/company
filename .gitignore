@@ -1,0 +1,52 @@
+# 機密情報・環境変数（絶対にコミットしない）
+.env
+.env.*
+*.env
+secrets/
+credentials/
+*_credentials.json
+*_secret*
+token.json
+tokens/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+myenv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ログ（大量になりがちなためignore）
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+.npm/
+*.lock
+
+# 一時ファイル
+*.tmp
+*.bak
+*.swp
+*.zip
+
+# Electron
+electron-app/node_modules/
+electron-app/dist/
+electron-app/.npm-cache/
+
+# Codex（システム内部）
+.codex
+saas/
