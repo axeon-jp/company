@@ -1,0 +1,52 @@
+{
+  "name": "x-post-scheduler",
+  "version": "1.0.0",
+  "description": "X投稿スケジューラー",
+  "main": "main.js",
+  "author": {
+    "name": "Axeon",
+    "email": "y75a38@gmail.com"
+  },
+  "homepage": "https://github.com/axeon/x-post-scheduler",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "build:linux": "electron-builder --linux",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac"
+  },
+  "build": {
+    "appId": "com.axeon.x-post-scheduler",
+    "productName": "X Post Scheduler",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "node_modules/**"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "category": "Office"
+    },
+    "win": {
+      "target": [
+        { "target": "zip", "arch": ["x64"] }
+      ]
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    }
+  },
+  "devDependencies": {
+    "electron": "^41.3.0",
+    "electron-builder": "^26.8.1"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.29.0"
+  }
+}

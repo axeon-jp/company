@@ -50,3 +50,12 @@ electron-app/.npm-cache/
 # Codex（システム内部）
 .codex
 saas/
+
+# Claude Code 内部ファイル
+.claude/
+
+# セッションログ（タイムスタンプのみ・ノイズ）
+agents/jobs/inbox/session_log_*.md
+
+# 自動生成ステートファイル
+x_api_post/last_post.json
